@@ -7,7 +7,7 @@ The selection sort algorithm sorts an array by repeatedly finding the minimum el
 
 In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.
 
-'''
+```
 arr[] = 64 25 12 22 11
 
  Find the minimum element in arr[0...4]
@@ -30,6 +30,36 @@ and place it at beginning
 of arr[3...4]
 
 11 12 22 25 64 
-'''
 
-<img scr="https://www.google.com/url?sa=i&url=https%3A%2F%2Fonline.visual-paradigm.com%2Fdiagrams%2Ftemplates%2Fflowchart%2Fcrossing-traffic%2F&psig=AOvVaw3Zp5-HsNo-23LLXOhuFhXT&ust=1614554017503000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDQotmYi-8CFQAAAAAdAAAAABAD"/>
+```
+
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fonline.visual-paradigm.com%2Fdiagrams%2Ftemplates%2Fflowchart%2Fcrossing-traffic%2F&psig=AOvVaw3Zp5-HsNo-23LLXOhuFhXT&ust=1614554017503000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDQotmYi-8CFQAAAAAdAAAAABAD">
+
+
+
+```javascript
+function selectionSort(values){
+  for(var i = 0; i < values.length -1; i++){
+    let min_idx = i;
+    for(var j = i+1; j < values.length; j++){
+      if(values[j] < values[min_idx]){
+        min_idx = j
+        swap(values, min_idx, i);
+    }
+  }
+}
+```
+
+
+
+#### Time Complexity: O(n2) as there are two nested loops.
+
+#### Auxiliary Space: O(1)
+###### The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation.
+
+
+### Reference
+
+https://www.geeksforgeeks.org/selection-sort
+https://en.wikipedia.org/wiki/Selection_sort
+
