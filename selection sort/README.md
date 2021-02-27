@@ -1,2 +1,35 @@
-# sortVisualization
-In computer science, a sorting algorithm is an algorithm that puts elements of a list in a certain order. The most frequently used orders are numerical order and lexicographical order. Efficient sorting is important for optimizing the efficiency of other algorithms (such as search and merge algorithms) that require input data to be in sorted lists. Sorting is also often useful for canonicalizing data and for producing human-readable output. More formally, the output of any sorting algorithm must satisfy two conditions:  The output is in nondecreasing order (each element is no smaller than the previous element according to the desired total order); The output is a permutation (a reordering, yet retaining all of the original elements) of the input. For optimum efficiency, the input data in fast memory should be stored in a data structure which allows random access rather than one that allows only sequential access.
+# Selection Sort 
+
+The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
+
+1) The subarray which is already sorted.
+2) Remaining subarray which is unsorted.
+
+In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.
+
+'''
+arr[] = 64 25 12 22 11
+
+ Find the minimum element in arr[0...4]
+ and place it at beginning
+ 
+11 25 12 22 64
+
+ Find the minimum element in arr[1...4] 
+ and place it at beginning of arr[1...4]
+ 
+11 12 25 22 64
+
+Find the minimum element in arr[2...4]
+and place it at beginning of arr[2...4]
+
+11 12 22 25 64
+
+Find the minimum element in arr[3...4]
+and place it at beginning
+of arr[3...4]
+
+11 12 22 25 64 
+'''
+
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fonline.visual-paradigm.com%2Fdiagrams%2Ftemplates%2Fflowchart%2Fcrossing-traffic%2F&psig=AOvVaw3Zp5-HsNo-23LLXOhuFhXT&ust=1614554017503000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDQotmYi-8CFQAAAAAdAAAAABAD"/>
