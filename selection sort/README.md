@@ -33,7 +33,7 @@ of arr[3...4]
 
 ```
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fonline.visual-paradigm.com%2Fdiagrams%2Ftemplates%2Fflowchart%2Fcrossing-traffic%2F&psig=AOvVaw3Zp5-HsNo-23LLXOhuFhXT&ust=1614554017503000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDQotmYi-8CFQAAAAAdAAAAABAD">
+<img src="https://www.includehelp.com/algorithms/images/insertion-sort-flowchart.jpg">
 
 
 
@@ -60,6 +60,6 @@ function selectionSort(values){
 
 ### Reference
 
-https://www.geeksforgeeks.org/selection-sort
+https://www.geeksforgeeks.org/selection-sort</br>
 https://en.wikipedia.org/wiki/Selection_sort
 
