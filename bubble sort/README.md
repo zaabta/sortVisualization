@@ -4,7 +4,7 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
 
 
 
-<img src="https://i.imgur.com/3tBdp0R.mp4">
+<img src="https://i.imgur.com/3tBdp0R.gif">
 
 
 
