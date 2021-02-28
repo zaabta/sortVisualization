@@ -6,7 +6,10 @@ var count;
 var h;
 var comparisons = 0;
 var arrayAccess = 0;
-let delay = 1.5;
+let delay = 1;
+var freq = 0 ,amp = 1;
+let osc;
+var playing = false;
 
 function setup() {
   createCanvas(size, size);
@@ -19,7 +22,8 @@ function setup() {
   shuffle(values, true);
   i = 0;
   j = 0;
-  textSize(10);
+  osc = new p5.Oscillator('triangle');
+  playOscillator();
 }
 
 function draw() {
@@ -29,8 +33,9 @@ function draw() {
   stroke(0);
 
   for(var k = 0; k < count; k++){
-    if(k === j)
+    if(k === j){
       fill(255, 0, 0);
+    }
     else
     fill(255);
 
@@ -58,12 +63,21 @@ function draw() {
       rect(k*w, height - sortValues[k], w, sortValues[k]);
     }
     noLoop();
+    stopOscillator();
     console.log('Done !');
   }
+
+  freq = map(values[j], 0, height, 0, 500);
+
+  if (playing) {
+    // smooth the transitions by 0.1 seconds
+    osc.freq(freq, 0.5);
+    osc.amp(1, 0.5);
+    }
   j += 1;
   fill(255);
-  textSize(10);
-  text('bubble sort - ' + comparisons+' comparisons, '+arrayAccess+' array access, ' + delay+' ms delay', 1, 15);
+  textSize(15);
+  text('bubble sort - ' + comparisons+' comparisons, '+arrayAccess+' array access, ' + delay+' ms delay', 5, 15);
   }
 }
 
@@ -72,6 +86,20 @@ function swap(values, i, j){
   values[i] = values[j];
   values[j] = temp;
   arrayAccess++;
+}
+
+function playOscillator() {
+  // starting an oscillator on a user gesture will enable audio
+  // in browsers that have a strict autoplay policy.
+  // See also: userStartAudio();
+  osc.start();
+  playing = true;
+}
+
+function stopOscillator() {
+  // ramp amplitude to 0 over 0.5 seconds
+  osc.amp(0, 0.5);
+  playing = false;
 }
 
 /*
