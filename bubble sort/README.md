@@ -22,7 +22,7 @@ Third Pass:
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 
-<img scr="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.includehelp.com%2Falgorithms%2Fbubble-sort-algorithm-flow-chart-and-cpp-code.aspx&psig=AOvVaw3siXQxKKsUTiWoN4IoJmLT&ust=1614604724260000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjOlLvVjO8CFQAAAAAdAAAAABAN">
+<img src="https://www.includehelp.com/algorithms/images/bubble-sort.PNG">
 
 ```javascript
 function bubbleSort(values){
