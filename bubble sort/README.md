@@ -22,7 +22,7 @@ Third Pass:
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.includehelp.com%2Falgorithms%2Fbubble-sort-algorithm-flow-chart-and-cpp-code.aspx&psig=AOvVaw3siXQxKKsUTiWoN4IoJmLT&ust=1614604724260000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjOlLvVjO8CFQAAAAAdAAAAABAN">
+<img scr="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.includehelp.com%2Falgorithms%2Fbubble-sort-algorithm-flow-chart-and-cpp-code.aspx&psig=AOvVaw3siXQxKKsUTiWoN4IoJmLT&ust=1614604724260000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjOlLvVjO8CFQAAAAAdAAAAABAN">
 
 ```javascript
 function bubbleSort(values){
@@ -37,10 +37,4 @@ function bubbleSort(values){
 ```
 
 
-> Note: `Worst and Average Case Time Complexity:` O(n*n). Worst case occurs when array is reverse sorted.
-
-`Best Case Time Complexity:` O(n). Best case occurs when array is already sorted.
-
-`Auxiliary Space`: O(1)
-
-`Boundary Cases`: Bubble sort takes minimum time (Order of n) when elements are already sorted.
+> Note: `Worst and Average Case Time Complexity:` O(n*n). Worst case occurs when array is reverse sorted.</br>`Best Case Time Complexity:` O(n). Best case occurs when array is already sorted.</br>`Auxiliary Space`: O(1)</br>`Boundary Cases`: Bubble sort takes minimum time (Order of n) when elements are already sorted.
