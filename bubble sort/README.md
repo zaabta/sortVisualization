@@ -2,6 +2,13 @@
 
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 
+
+
+<img src="https://i.imgur.com/3tBdp0R.mp4">
+
+
+
+
 Example:
 First Pass:
 ( 5 1 4 2 8 ) –> ( 1 5 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1.
@@ -40,3 +47,10 @@ function bubbleSort(values){
 
 
 > Note: `Worst and Average Case Time Complexity:` O(n*n). Worst case occurs when array is reverse sorted.</br>`Best Case Time Complexity:` O(n). Best case occurs when array is already sorted.</br>`Auxiliary Space`: O(1)</br>`Boundary Cases`: Bubble sort takes minimum time (Order of n) when elements are already sorted.
+> 
+
+#### Reference
+https://www.includehelp.com/algorithms/bubble-sort-algorithm-flow-chart-and-cpp-code.aspx
+
+
+
