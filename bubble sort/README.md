@@ -22,7 +22,9 @@ Third Pass:
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 
+
 <img src="https://www.includehelp.com/algorithms/images/bubble-sort.PNG">
+
 
 ```javascript
 function bubbleSort(values){
