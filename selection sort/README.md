@@ -35,6 +35,8 @@ of arr[3...4]
 
 <img src="https://www.includehelp.com/algorithms/images/insertion-sort-flowchart.jpg">
 
+<img src="file:///Users/dabbaghie/Downloads/ezgif.com-video-to-gif.gif">
+
 
 
 ```javascript
