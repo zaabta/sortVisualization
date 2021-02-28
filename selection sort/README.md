@@ -7,6 +7,11 @@ The selection sort algorithm sorts an array by repeatedly finding the minimum el
 
 In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.
 
+
+
+<img src="https://imgur.com/yZ3y5hI.gif">
+
+
 ```
 arr[] = 64 25 12 22 11
 
@@ -35,7 +40,6 @@ of arr[3...4]
 
 <img src="https://www.includehelp.com/algorithms/images/insertion-sort-flowchart.jpg">
 
-<img src="https://imgur.com/naqn7kJ">
 
 
 
