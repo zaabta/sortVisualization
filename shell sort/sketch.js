@@ -94,11 +94,10 @@ function stopOscillator() {
 
 /*
 function shell sort(values){
-  var n = values.lenght;
+  var n = values.length;
   for(var gap = n/2; gap > 0; gap /=2){
     for(var i = gap; gap < n ; i++){
       var tamp = values[i];
-      var j ;
       var j;
       for (j = i; j >= gap && arr[j - gap] > temp; j -= gap)
         values[j] = values[j - gap];
