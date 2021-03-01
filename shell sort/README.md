@@ -5,8 +5,6 @@ ShellSort is mainly a variation of Insertion Sort. In insertion sort, we move el
 
 <img src="https://imgur.com/UMa22U4.gif">
 
-<img src="https://i.imgur.com/3tBdp0R.gif">
-
 
 ```javascript
 function shell sort(values){
@@ -23,7 +21,7 @@ function shell sort(values){
 }
 
 ```
-</br>
-
 
 <img src="shell sort/Screen Shot 2021-03-01 at 2.21.50 AM.png">
+
+
