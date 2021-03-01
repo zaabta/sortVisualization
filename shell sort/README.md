@@ -22,6 +22,4 @@ function shellSort(values){
 
 ```
 
-<img src="shell sort/Screen Shot 2021-03-01 at 2.21.50 AM.png">
-
 
