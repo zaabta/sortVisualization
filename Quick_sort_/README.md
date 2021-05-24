@@ -44,3 +44,5 @@ for(let i = start; i < end; i++)
   return pivotIndex;
 }
 ```
+
+<img src = "https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/QuickSort2.png">
