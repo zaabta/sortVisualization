@@ -4,4 +4,5 @@ In computer science, a sorting algorithm is an algorithm that puts elements of a
 1.buble sort <a href="https://zaabta.github.io/sortVisualization/bubble sort/"> live example</a></br>
 2.selection sort <a href="https://zaabta.github.io/sortVisualization/selection sort/"> live example</a></br>
 3.shell sort <a href="https://zaabta.github.io/sortVisualization/shell sort/"> live example</a></br>
-4.Quick sort <a href="https://zaabta.github.io/sortVisualization/Quick_sort_/"> live example</a></br>
+4.insertion sort <a href="https://zaabta.github.io/sortVisualization/insertion_sort/"> live example</a></br>
+5.Quick sort <a href="https://zaabta.github.io/sortVisualization/Quick_sort_/"> live example</a></br>
