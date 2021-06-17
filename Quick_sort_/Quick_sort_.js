@@ -6,7 +6,7 @@ let states = [];
 
 function setup() {
   values = new Array(width);
-  createCanvas(800, 600);
+  createCanvas(600, 600);
   for(let i = 0; i < width;i++){
     values[i] = floor(random(height));
     states [i] = -1;
